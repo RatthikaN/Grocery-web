@@ -1,0 +1,44 @@
+
+.button-hover-addcart {
+    border: 2px solid #16a34a;
+    background: transparent;
+    color: #16a34a;
+    /*text-transform: uppercase;*/
+    overflow: hidden;
+    letter-spacing: 0.07rem;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+  }
+  
+  .button-hover-addcart span {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .button-hover-addcart .fa {
+    position: absolute;
+    font-size: 1.2rem;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    color: #16a34a;
+    right: -20px;
+    transition: 0.4s right cubic-bezier(0.38, 0.6, 0.48, 1);
+  }
+  
+  .button-hover-addcart:hover {
+    border-color: #16a34a;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+  
+  .button-hover-addcart:hover span {
+    margin-right: 20px;
+    color: #16a34a;
+  }
+  
+  .button-hover-addcart:hover .fa {
+    right: 12px;
+  }
+  
+  

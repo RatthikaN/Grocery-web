@@ -1,0 +1,59 @@
+/* src/components/ConfirmationPage/ConfirmationPage.css */
+.confirmation-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 60px; /* Adjust margin to avoid overlap */
+}
+
+.confirmation-message {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.checkmark {
+    font-size: 80px;
+    color: green;
+    margin-bottom: 10px;
+}
+
+.order-summary {
+    width: 100%;
+    max-width: 600px; /* Adjusted max-width for better alignment */
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.order-summary h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+.order-total {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.confirmation-message h1 {
+    font-weight: bold; /* Make "Order Placed" text bold */
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.confirmation-message p {
+    font-size: 16px;
+    color: #555;
+}
